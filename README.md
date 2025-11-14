@@ -5,7 +5,7 @@ Platform for deploying and managing ERC20 tokens on Arc Testnet.
 ## Project Structure
 
 - **Contract/**: Smart contracts (Foundry) - see [Contract/README.md](./Contract/README.md)
-- **TOKEN DEPLOYER WEB/**: Web application (Next.js) - see [TOKEN DEPLOYER WEB/README.md](./TOKEN%20DEPLOYER%20WEB/README.md)
+- **token-deployer-web/**: Web application (Next.js) - see [token-deployer-web/README.md](./token-deployer-web/README.md)
 
 ## Quick Start
 
@@ -18,7 +18,7 @@ forge build
 
 ### Web App
 ```bash
-cd "TOKEN DEPLOYER WEB"
+cd token-deployer-web
 npm install
 npm run dev
 ```
